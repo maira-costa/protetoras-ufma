@@ -1,0 +1,11 @@
+.rodape__logo{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.rodape__logo--image--img{
+ height: 12rem;
+ width: 12rem;
+}

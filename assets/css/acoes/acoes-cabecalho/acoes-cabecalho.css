@@ -1,0 +1,34 @@
+.acoes__cabecalho{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.25rem;
+}
+
+.acoes__cabecalho--titulo{
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.125rem;
+  margin-bottom: 1.6875rem;  
+}
+
+.acoes__cabecalho--texto{
+  font-size: 1rem;
+  display: inline-flex;
+  line-height: 1.5rem;  
+}
+
+@media  screen and (min-width: 992px) {
+  .acoes__cabecalho{
+    align-items: center;
+  }
+  
+  .acoes__cabecalho--texto{
+    display:inline-flex;
+    justify-content: center;
+    text-align: center;
+    max-height: 4.5rem;
+    max-width:44.625rem;
+  }
+} 

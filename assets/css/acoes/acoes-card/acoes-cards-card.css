@@ -1,0 +1,36 @@
+.acoes__cards--card{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  background-color: #A7D0D3;
+  width: 300px;
+  height: 414px;  
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.acoes__cards--card--image{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.acoes__cards--card--conteudo{
+  display: flex;
+  flex-direction: column;
+}
+
+.acoes__cards--card--conteudo--titulo{
+  display:inline-flex;
+  align-items: center;
+  font-size: 1.12rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.acoes__cards--card--conteudo--texto{
+  text-align: center;
+}
+

@@ -1,0 +1,15 @@
+.logo__nome{
+  color: #767676;
+  font-family: Caveat Brush, cursive;
+  font-size: 0.94rem;
+  
+  
+}
+
+/* @media screen and (min-width:992px){
+  .logo__nome{
+    font-size: 1.5rem;
+  }
+ 
+
+} */

@@ -1,0 +1,20 @@
+.menu__show .menu__grid{
+  opacity: 1;
+ visibility: visible;
+ background: #FFFFFF;
+
+ height: 100vh;
+ width: 100vw;
+
+ position: fixed;
+ top: 0;
+ left: 0;
+
+ display: grid;
+ gap: 2rem;
+ place-content: center;
+ 
+ 
+}
+
+

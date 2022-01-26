@@ -1,0 +1,18 @@
+.menu__titulo{
+  font: 700 1.875rem 'Montserrat', sans-serif;
+  color: #0F241D;
+}
+
+@media screen and (min-width:992px){
+  .menu__link{    
+     font: 400 1rem 'Raleway', sans-serif;
+  }
+
+}
+
+@media screen and (min-width:767px){
+  .menu__link{    
+     font: 400 1rem 'Raleway', sans-serif;
+  }
+
+}

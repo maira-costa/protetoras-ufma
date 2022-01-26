@@ -1,0 +1,48 @@
+.rodape__autoria{
+  display: flex;
+  flex-direction: column ;
+  
+}
+
+.rodape__autoria--logos{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.rodape__autoria--logos--img1{
+  height: 3rem;
+  width: auto;
+}
+
+.rodape__autoria--logos--img2{
+  height: 3rem;
+  width: auto;
+}
+
+.rodape__autoria--texto{
+  color:#0F241D;
+  font: 400 1rem 'Raleway', sans-serif;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width:767px){
+  .rodape__autoria--logos--img1{
+    height: 5rem;
+    width: 14.06rem;
+  }
+  
+  .rodape__autoria--logos--img2{
+    height: 5rem;
+    width: 5.044rem;
+  }
+  
+  .rodape__autoria--texto{
+    
+    font-size: 0.75rem;
+    
+  }
+
+}

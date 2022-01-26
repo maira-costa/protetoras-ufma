@@ -1,0 +1,36 @@
+ .menu__grid{
+ 
+  /* display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem; */
+  
+  opacity: 0;
+  text-align: center;
+  visibility: hidden;
+
+  
+ 
+}
+
+
+@media screen and (min-width:992px){
+  .menu__grid{
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+    gap: 2rem;
+  }
+
+}
+
+@media screen and (min-width:767px){
+  .menu__grid{
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+    gap: 2rem;
+  }
+
+} 

@@ -1,0 +1,117 @@
+.apoiador__formulario{
+  align-items: center;
+  background: #E4E4E4;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 20.4375rem;
+
+}
+
+.apoiador__formulario--campos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.apoiador__formulario--titulo{
+  margin-bottom: 1.125rem;
+  margin-top: 2.125rem;
+}
+
+.apoiador__formulario--campo{
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway, cursive;
+  font-size: 1rem;
+  margin-bottom: 1.125rem;
+}
+
+.apoiador__formulario--campo--input{
+  height: 3rem;
+  width: 17.985rem;
+
+}
+
+.apoiador__formulario--escolha{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.apoiador__formulario--escolha--texto{
+  width: 17.98rem;
+  margin-bottom: 1.1875rem;
+}
+
+.apoiador__formulario--escolha--checkbox{
+  margin-bottom: 0.6rem;
+  
+}
+
+.apoiador__formulario--campo--input--msg{
+  height: 8.69rem;
+  width: 17.985rem;
+}
+
+.apoiador__formulario--campo--label{
+    padding-bottom: 0.5rem;
+}
+
+
+.apoiador__enviar{
+  display: flex;
+  justify-content:flex-end;
+  width: 100%;
+}
+
+.apoiador__enviar--botao--enviar{
+  background: #FF9700;
+  color:#F9F9F9;
+  display: inline-flex;
+  font-family: Raleway, sans-serif;
+  font-size: 1.3125rem;
+  height: 3.3125rem;
+  align-items: center;
+  padding: 0 2.875rem;
+  border-radius: 0.25rem;
+  /* padding-top: 0.97rem; */
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.apoiador__enviar--botao--enviar:hover{
+background: #dd8a0f;
+
+}
+
+@media screen and (min-width:992px){
+  .apoiador__formulario{
+    height: 46.4375rem;
+    width: 25rem;
+    margin-bottom: 2.625rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.9375rem;
+  }
+
+  
+
+  .apoiador__formulario--campos{
+    padding-bottom: 1.9375rem;
+  }
+
+  .apoiador__formulario--campo--input{
+    width: 22rem;
+  
+  }
+
+  .apoiador__enviar--botao--enviar{
+    /* margin-right: 1.6875rem; */
+    margin-bottom: 2.1875rem;
+
+  }
+
+}

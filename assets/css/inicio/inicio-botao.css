@@ -1,0 +1,12 @@
+.inicio__botao{
+  background: #FF9700;
+  color:#F9F9F9;
+  display: inline-flex;
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  align-items: center;
+  padding: 1em 1.5em;
+  border-radius: 0.25rem;
+}
+

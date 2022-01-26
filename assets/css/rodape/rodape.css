@@ -1,0 +1,22 @@
+.rodape{
+  background: #A7D0D3;
+  width: 100%;
+}
+
+.container__rodape{
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  
+}
+
+
+@media screen and (min-width: 992px){
+  .container__rodape{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

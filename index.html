@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Protetoras - UFMA</title>
+    <!--Icones-->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+
+    <!--Swiper-->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/container.css">
+    <link rel="stylesheet" href="assets/css/pularNavegacao.css">
+    <link rel="stylesheet" href="assets/css/titulo.css">
+    <link rel="stylesheet" href="assets/css/text.css">
+    <link rel="stylesheet" href="assets/css/scroll-container.css">
+
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header-logo.css">
+    <link rel="stylesheet" href="assets/css/header/header-scroll.css">
+
+    <link rel="stylesheet" href="assets/css/logo/logo-image.css">
+    <link rel="stylesheet" href="assets/css/logo/logo-nome.css">
+
+    <link rel="stylesheet" href="assets/css/menu/menu.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-grid.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-show.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-titulo.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-close.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-open.css">
+    <link rel="stylesheet" href="assets/css/menu/menu__icon.css">
+
+    <link rel="stylesheet" href="assets/css/inicio/inicio.css">
+    <link rel="stylesheet" href="assets/css/inicio/inicio-banner.css">
+    <link rel="stylesheet" href="assets/css/inicio/inicio-titulo.css">
+    <link rel="stylesheet" href="assets/css/inicio/inicio-botao.css">
+
+    <link rel="stylesheet" href="assets/css/sobreNos/sobreNos.css">
+
+    <link rel="stylesheet" href="assets/css/acoes/acoes-cabecalho/acoes.css">
+    <link rel="stylesheet" href="assets/css/acoes/acoes-cabecalho/acoes-cabecalho.css">
+    <link rel="stylesheet" href="assets/css/acoes/acoes-card/acoes-cards.css">
+    <link rel="stylesheet" href="assets/css/acoes/acoes-card/acoes-cards-card.css">
+
+    <link rel="stylesheet" href="assets/css/depoimentos/depoimentos.css">
+
+    <link rel="stylesheet" href="assets/css/galeria/galeria.css">
+
+
+    <link rel="stylesheet" href="assets/css/formulario/apoiador.css">
+    <link rel="stylesheet" href="assets/css/formulario/apoiador-formulario.css">
+
+    <link rel="stylesheet" href="assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-icons.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-logo.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-social.css">
+
+    <link rel="stylesheet" href="assets/css/rodape/rodape-autoria.css">
+
+    <!-- Ícones do Rodapé-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    
+    
+
+
+  </head>
+  <body >
+    <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteudo principal</a> 
+    <header class="header "> <!--Não esqueçam de deixar o header fixo com a rolagem da página (APAGAR ESSE COMENTÁRIO)-->
+      <div class="container">
+        <div class="container__header">
+          <div class="header__logo">
+            <!-- <a class="logo" href="#inicio">
+              
+              <img src="./assets/img/logo.svg" alt="">
+            </a> -->
+            <img class="logo__image" src="./assets/img/logo.svg" alt=" Logo da Protetora">
+            <a class="logo__nome">Protetoras de Animais UFMA</a>
+          </div>
+          <nav class="menu ">
+            
+            <!-- menu visível-->
+              <ul class="menu__grid"> <!--Vejam se a class grid é realmente necessária no nosso projeto (APAGAR ESSE COMENTÁRIO) -->
+                <li class="menu__titulo" ><a  class="menu__link" href="#inicio">Início</a></li>
+                <li class="menu__titulo"><a class="menu__link" href="#sobre">Sobre</a></li>
+                <li class="menu__titulo"><a class="menu__link"   href="#acoes">Ações</a></li>
+                <li class="menu__titulo" ><a class="menu__link"  href="#depoimentos">Depoimentos</a></li>
+                <li class="menu__titulo"><a  class="menu__link"  href="#galeria">Galeria</a></li>
+                <li class="menu__titulo"><a class="menu__link"   href="#apoiador">Seja um apoiador</a></li>
+              </ul>
+    
+              <div class= "menu__icon icon-menu"></div>
+              <div class="menu__icon icon-close"></div>
+          </nav>
+        </div>
+      </div>
+   
+    </header>
+    <main>
+      <!--INICIO-->
+      <section class="inicio " id="inicio" id="home">
+        <div class="container container__inicio">
+          <!-- <div class="container__inicio "> -->
+                  <!-- <div class="texto"> -->
+              <h1 class="titulo inicio__titulo" href="#conteudoPrincipal">Uma ação que parece simples pra você é a esperança de muitos.</h1>
+              <a class="inicio__botao" href="#apoiador">Seja um apoiador</a>
+          <!-- </div> -->
+        </div>
+       
+        <!-- </div> -->
+      </section>
+
+      <!--SOBRE-->
+      <section class=" sobre" id="sobre" >
+        <div class="container container__sobre">
+          <div class="sobre__imagem">
+            <picture> 
+              <source media="(max-width: 768px)" srcset="./assets/img/sobre/sobrenos_mobile.JPG" type="image/jpeg">
+              <img class="sobre__imagem--img"  src="assets/img/sobre/sobrenos.JPG" alt="Mulher sorrindo abraça e brinca com cachorro. Ao fundo vê-se placa que diz: Não compre! Adote!">
+            </picture>
+          </div>
+          <div class="sobre__texto">
+            <h2 class="titulo sobre__texto--titulo">Sobre nós</h2>
+            <div class="sobre__texto--conteudo">
+              <p class="text sobre__texto--conteudo--paragrafo">
+                Somos um Grupo Voluntário e Independente de Proteção Animal que atua na UFMA (Campus do Bacanga) São Luís-MA, desde 2018. Nosso projeto é formado por discentes da instituição.
+              </p>
+              <p class="text sobre__texto--conteudo--paragrafo" >
+                Mesmo durante a pandemia mundial, nós e outros (pouquíssimos) protetores independentes atuamos prestando a mínima assistência a alguns animais errantes que vivem no Campus. Atualmente, nosso projeto tem prestado assistência para cães e gatos, que vivem na UFMA e aos resgatados que estão em Lares Temporários.
+              </p>
+              <p class="text sobre__texto--conteudo--paragrafo">
+                Portanto, precisamos de apoio, de ajuda financeira e também de adotantes responsáveis para os nossos animais que merecem muito um lar amoroso e acolhedor.
+              </p>
+              <p class="text sobre__texto--conteudo--paragrafo">
+                Àqueles que conhecem, confiam e contribuem com nosso trabalho de formiguinha, toda a nossa gratidão e respeito. Sem vocês não teríamos chegado até aqui.
+              </p> 
+              <div class="text sobre__texto--assinatura">
+                <p class="text sobre__paragrafo">
+                  #protetorasufma
+                </p>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Ações-->
+      <section class=" acoes" id="acoes"><div class="container container__acoes">        
+        <div class="acoes__cabecalho">
+          <h2 class="acoes__cabecalho--titulo">Ações</h2>
+          <p class="text acoes__cabecalho--texto">
+            As ações que realizamos diariamente consistem em resgate, alimentação, vacinação, castração, assistência veterinária e encaminhamento para adoções dos animais que vivem situação de abandono. Já conseguimos a adoção de dezenas de animais ao longo destes anos.
+          </p>
+        </div>
+        <div class="acoes__cards grid" >
+          <div class="acoes__cards--card">
+            <img class="acoes__cards--card--image" src="assets/img/acoes/alimentacao.png" alt="">
+            <div class="acoes__cards--card--conteudo">
+              <h3 class="titulo acoes__cards--card--conteudo--titulo">Alimentação</h3>
+                <p class="text acoes__cards--card--conteudo--texto">
+                  Somos responsávies pela alimentação dos animais em quatro pontos da UFMA e em alguns lares temporários.
+                </p>
+            </div>
+          </div>
+          <div class="acoes__cards--card">
+            <img class="acoes__cards--card--image" src="assets/img/acoes/resgate.png" alt="">
+            <div class="acoes__cards--card--conteudo">
+              <h3 class="titulo acoes__cards--card--conteudo--titulo">Resgate</h3>
+              <p  class="text acoes__cards--card--conteudo--texto">
+                Resgatamos os animais e encaminhamos para lares temporários ou adoção responsável.
+              </p>
+            </div>        
+          </div>
+          <div class="acoes__cards--card">
+            <img class="acoes__cards--card--image" src="assets/img/acoes/vacinacao.png" alt="">
+            <div class="acoes__cards--card--conteudo">
+              <h3 class="titulo acoes__cards--card--conteudo--titulo">Vacinação</h3>
+              <p class="text acoes__cards--card--conteudo--texto">
+                A vacinação é de extrema importância para manter o animal saudável e seguro contra doenças infecciosas.
+              </p>
+            </div>        
+          </div>
+          <div class="acoes__cards--card">
+            <img class="acoes__cards--card--image" src="assets/img/acoes/castracao.png" alt="">
+            <div class="acoes__cards--card--conteudo">
+              <h3 class="titulo acoes__cards--card--conteudo--titulo">Castração</h3>
+              <p  class="text acoes__cards--card--conteudo--texto">
+                Intermediamos a castração de animais resgatados para redução do número de abandonos e maus-tratos.
+              </p>
+            </div>        
+          </div>
+          <div class="acoes__cards--card">
+            <img class="acoes__cards--card--image" src="assets/img/acoes/assistencia.png" alt="">
+            <div class="acoes__cards--card--conteudo">
+              <h3 class="titulo acoes__cards--card--conteudo--titulo">Assistência Veterinária</h3>
+              <p class="text acoes__cards--card--conteudo--texto">
+                Encaminhamos os resgatados para tratamentos veterinários. Estamos sempre precisando de novas parcerias com clínicas.
+              </p>
+            </div>        
+          </div>
+          <div class="acoes__cards--card">
+            <img class="acoes__cards--card--image" src="assets/img/acoes/adocao.png" alt="">
+            <div class="acoes__cards--card--conteudo">
+              <h3 class="titulo acoes__cards--card--conteudo--titulo">Adoção Responsável</h3>
+              <p class="text acoes__cards--card--conteudo--texto">
+                Buscamos tutores que queiram fazer a diferença. A adoção responsável é a maior recompensa do nosso trabalho.
+              </p>
+            </div>
+    
+          </div>
+        </div>
+  </div>        
+  </section>
+      <!-- Depoimentos-->
+      <section class="depoimentos" id="depoimentos">
+        <div class="container">
+          <div class="container__depoimento">
+            <h2 class="titulo depoimento__titulo">Depoimentos de quem já adotou</h2>
+         
+            <div class="depoimentos__list swiper swiper1">
+              <div class="swiper-wrapper">                       
+                    <div class="depoimento swiper-slide">
+                      <img class="depoimento__image" src="assets/img/depoimentos/naylla.png" alt="Mulher com cadela recém adotada no colo.">
+                      <blockquote class="depoimento__conteudo">
+                        <p class="depoimento__conteudo--texto">
+                          <span>&ldquo;</span>
+                          No início do ano de 2021 eu e minha família sentimos que precisávamos de mais alegria em casa e companhia para os outros pets. Em maio, me deparei com a publicação do Instagram da página Protetoras de Animais- UFMA relatando sobre uma cachorrinha de pequeno porte de havia chegado por lá há pouco tempo, a Raposinha. No mesmo dia entrei em contato e expressei interesse. Uma semana depois ela estava em nosso lar, uma cadelinha super dócil e carinhosa. Recebemos muito apoio do grupo nos primeiros meses, além da castração, vermifugação e primeiras vacinas. Raposinha agora se chama Kibe e é um membro da nossa família. É cheia de peripécias  e super brincalhona. Para mim, é como uma filha, que faz os dias ruins serem bons e eu espero ser porto seguro pra ela. A adoção tirou a Kibe das ruas, a afastou dos perigos e trouxe uma nova oportunidade de uma vida proveitosa. Portanto, adotem, sejam essa nova oportunidade para tantos animais de rua que sofrem todos os dias!
+                        </p>
+                        <cite>
+                          Naylla Verônica
+                        </cite>
+                      </blockquote>
+                    </div>
+                  
+                    <div class="depoimento  swiper-slide">
+                      <img  class="depoimento__image" src="assets/img/depoimentos/luisa.jpeg" alt="Mulher sorrindo deitada na cama abraçando cadela.">
+                      <blockquote class="depoimento__conteudo">
+                        <p class="depoimento__conteudo--texto">
+                          <span>&ldquo;</span>
+                          Não fui eu quem achou Pretinha, foi ela quem nos achou. Vi um pedido de adoção, e desde que a vi, não queria saber quem era ela, só queria ela na nossa casa. Pretinha nos ensinou a ter mais zelo e cuidado, pois quando ganhamos Anna Letícia, ela teve muito cuidado com a neném, como se fosse sua irmãzinha. Aprendemos a valorizar ainda mais a vida depois que ela chegou. Nossas camas passaram a ser ocupadas por ela, afinal, ela é muito folgada. Sim, ela adora uma cama. Adora o nosso abraço e adora o nosso lar. Procuramos aproveitar cada momento ao lado dela. E que cada vez mais as pessoas , adotem e cuidem dos animais e deem condições dignas aos bichinhos. Sejam gratos e adotem os animais resgatados!
+                        </p>
+                        <cite>
+                          Luisa
+                        </cite>
+                      </blockquote>
+                    </div>
+
+                    <div class="depoimento  swiper-slide">
+                      <img class="depoimento__image" src="assets/img/depoimentos/danilma.jpeg" alt="Mulher sentada no chão sorrindo enquanto cadela se aproxima do seu rosto.">
+                      <blockquote class="depoimento__conteudo">
+                        <p class="depoimento__conteudo--texto">
+                          <span>&ldquo;</span>
+                          Quando a Pagu entrou nas nossas vidas tínhamos acabado de realizar um sonho: a conquista da casa própria. Poderia não ter dado a ela a importância que ela de fato fez nas nossas vidas depois que chegou, mas ela dominou o espaço, se sentiu em casa desde o primeiro momento. Teimosa, grudenta e agitada, ela até hoje enche nossas vidas de alegria. Adora frutas e verduras, tem a casa própria que o papai fez e hoje já tem um irmão caçula. Adotar a Pagu do projeto Protetoras de Animais da UFMA foi uma escolha incrível. Obrigada a Poliana Santos por fazer parte dessa missão.
+                        </p>
+                        <cite>
+                          Danilma
+                        </cite>
+                      </blockquote>
+                    </div>
+
+                    <div class="depoimento  swiper-slide">
+                      <img class="depoimento__image" src="assets/img/depoimentos/juliana.jpeg" alt="Mulher com bebê no colo, ao lado de garoto que brinca a cadela.">
+                      <blockquote class="depoimento__conteudo">
+                        <p class="depoimento__conteudo--texto">
+                          <span>&ldquo;</span>
+                          Me apaixonei por Mel (antes Belinha), por meio do status de whatsapp  de uma amiga que tem também um projeto de causa animal, chamado Adote Viana! Ela estava em um grupo no qual foi postado sobre uma doguinha que foi abandonada e resgatada precisando de um lar. Quando vi os status me encantei logo pelo olhar dela e desejei adotar. Então, entrei em contato com as meninas do @ProtetorasUFMA que tiverem toda preocupação em achar um tutor adequado pra Mel. Depois de visita, entrevistas e conversas, nossa família foi agraciada com a presença dela. Já faz 1 ano e 4 meses q ela alegra nossos dias. É a cãopanheirinha do Miguel e a protetora de Felipe que no seu instinto, ao ouvir um choro, corre pra perto dele pra ver o que é. Ela é a primeira que me recebe ao chegar do serviço. Eu ainda vindo lá do outro lado da rua, já começa a correria dentro de casa para me receber com as suas lambeijocas. Nós te amamos, Melzoca. E cuidamos pra que vc fique bem velhinha ao nosso lado, sendo a nossa filha de 4 patas e melhor amiga.
+                        </p>
+                        <cite>
+                          Juliana
+                        </cite>
+                      </blockquote>
+                    </div>
+                    
+                    <div class="depoimento  swiper-slide">
+                      <img class="depoimento__image" src="assets/img/depoimentos/ivana-ivan.jpeg" alt="Mulher e homem na praia abraçando dois cachorros.">
+                      <blockquote class="depoimento__conteudo">
+                        <p class="depoimento__conteudo--texto">
+                          <span>&ldquo;</span>
+                          Foi em junho de 2021. Era apenas um lar temporário. Ajudamos, doando nossa casa como lar temporário. No início ela só confiava na protetora dela. Quando o Ivan chegou ela ficou menos acanhada (ela se adaptou primeiro com ele).
+                          Ele levou ela para passear. Durante o período de adaptação ela me estranhou. A adaptação de um doguinho adulto e de rua é difícil e demorada. 
+                          Assim que Juju chegou passou dias dormindo embaixo do carro. 
+                          Ela dificilmente saia de lá. Era o único lugar que ela se sentia segura. Hoje ela fica perto da gente onde quer que a gente esteja. Quando recebemos visitas, ela já interage com todos. Às vezes a gente olha a cicatriz dela e fica imaginando tudo que ela já passou, se ela já teve tutor, se foi abandonada, se fugiu, o que causou a cicatriz, quanto tempo demorou pra cicatrizar, o quanto ela sofreu, enfim, a gente imagina mil coisas. Pode até parecer que Juju teve sorte, mas quem tem sorte somos nós.
+                        </p>
+                        <cite>
+                          Ivana e Ivan
+                        </cite>
+                      </blockquote>
+                    </div>
+              </div>
+              
+              <div class="swiper-pagination"></div>
+          </div>  
+          </div>
+          
+            </div>
+          
+      </section>
+      <!--Galeria-->
+      <section class="galeria" id="galeria">
+        <div class="container">
+          <div class="container__galeria">
+            <h2 class="titulo galeria__titulo">Galeria</h2>
+            <div class="galeria__fotos swiper swiper2"> 
+              <div class="swiper-wrapper">
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria1.png" alt="Mão segurando duas placas. Uma com a logo do Protetoras de Animais UFMA e outra pedindo ajuda para o projeto do grupo.">
+                </div> 
+
+                <div class="galeria__fotos--foto swiper-slide">
+                  <img src="assets/img/galeria/galeria2.png" alt="Cadela de pelagem caramelo amamentando dois filhotes dentro de caixa de transporte">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria3.png" alt="Cadela de pelagem preta com lingua para fora olhando para a câmera no campus da UFMA">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria4.png" alt="Veterinária de máscara abraçando cadela de pelagem caramelo adotada que está sobre mesa de consultório">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria5.png" alt="Cadela de pelagem clara adotada sorridente sentada sobre grama">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria6.png" alt="Filhote de cachorro examinado por veterinária">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria7.png" alt="Cachorro deitado embaixo de lixeira quebrada com semblante triste">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria8.png" alt="Cachorro de pelagem branca adotado olhando para a câmera">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria9.png" alt="Duas mulheres e homem sentados em calçada na companhia de dois cachorros adotados">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria10.png" alt="Dois cachorros adotados usando colar elizabetano">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria11.png" alt="Cachorro de pelagem caramelo sorridente deitado no chão ">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria12.png" alt="Dois chachorros de pelagem clara sendo alimentados no campus da UFMA">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria13.png" alt="Homem sentado em meio-fio abraçando cachorro">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria14.png" alt="Mulher de máscara abraçando cachorro em consultório veterniário">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria15.png" alt="Mulher de máscara abraçando filhote que perdeu uma das orelhas">
+                </div>
+
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria16.png" alt="Cadela adotada sorridente sentada em banco traseiro de carro">
+                </div>
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria17.png" alt="Homem e mulher com cachorro adotado aguardando em fila para castração">
+                </div>
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria18.png" alt="Dois chachorros de pelagem escura sendo alimentados em campus da UFMA">
+                </div>
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria19.png" alt="Cachorro de pelagem caramelo tendo amostra de sangue coletada em consultório veterinário">
+                </div>
+                <div class="galeria__fotos--foto  swiper-slide">
+                  <img src="assets/img/galeria/galeria20.png" alt="Mulher ajoelhada ao lado de sacos de ração doados">
+                </div>
+              </div> 
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+      <!--Seja um Apoiador-->
+      <section class="apoiador" id="apoiador">
+        <!-- <div class="container grid"> -->
+          <!-- <div class="apoiador__container"> -->
+            <div class=container>
+              <div class="container__apoiador">
+                <div class="container__apoiador1">
+                  <div class="apoiador__texto">
+                    <h2 class="titulo apoiador__texto--titulo">Você pode nos ajudar de várias formas!</h2>
+                    <div class="text apoiador__texto--conteudo">
+                      <p>
+                        Estamos sempre precisando de pessoas que se importam para adotar, ceder lar temporário e se unir à nossa causa.
+                      </p>
+                      <p>
+                        Não recebemos qualquer tipo verba pública ou privada para nossas ações. A nossa única fonte de recursos vem de doações e da promoção de rifas por meio de nossas redes sociais.
+                      </p>
+                      <p>
+                        Você também pode nos ajudar fazendo uma doação por meio do PIX com a chave abaixo:
+                      </p>
+                    </div>
+                  </div>
+                  <div class="apoiador__card--pix" >
+                      <img class="apoiador__card--pix--image" src="assets/img/apoiador/pix.png" alt="Símbolo do pix" />
+                      <p class="apoiador__card--pix--email">protetorasufma@gmail.com</p> 
+                  </div>
+                  </div>
+                  <div class="apoiador__image">
+                    <img class="apoiador__image--celular" src="assets/img/apoiador/mao-celular.png" alt="Ilustração de uma mão com um celular">
+                  </div>
+                  <div class="apoiador__formulario">
+                    <form class="apoiador__formulario--campos" action="mailto:protetorasufma@gmail.com" method="post" enctype="text/plain">
+                      <h2 class="titulo apoiador__formulario--titulo">Seja um apoiador!</h2>
+                      <div class="text apoiador__formulario--campo">
+                        <label class="apoiador__formulario--campo--label" for="nome">Nome:</label>
+                        <input class="apoiador__formulario--campo--input" type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
+                      </div>
+                      <div  class="text apoiador__formulario--campo">
+                        <label class="apoiador__formulario--campo--label" for="email">E-mail:</label>
+                        <input class="apoiador__formulario--campo--input" type="email" name="email" id="email" placeholder="Digite seu e-mail" required/>
+                      </div>
+              
+                      <div  class="text apoiador__formulario--campo">
+                        <label class="apoiador__formulario--campo--label" for="telefone">Telefone:</label>
+                        <input class="apoiador__formulario--campo--input" type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone com DDD" required/>
+                      </div>
+              
+                      <div class="text apoiador__formulario--campo">
+                        <div class="apoiador__formulario--escolha">
+                          <legend class="apoiador__formulario--escolha--texto">Como você gostaria de nos ajudar?</legend>
+                          <div class="apoiador__formulario--escolha--checkbox">
+                            <input  id="adocao" type="checkbox" name="apoiador" value="adocao" checked/>
+                            <label for="adocao">Adoção</label>
+                          </div>
+                          <div class="apoiador__formulario--escolha--checkbox">
+                            <input id="larTemporario" type="checkbox" name="apoiador" value="larTemporario" checked/>
+                            <label for="larTemporario">Lar Temporário</label>
+                          </div>
+                          <div class="apoiador__formulario--escolha--checkbox">
+                            <input id="voluntariado" type="checkbox" name="apoiador" value="voluntariado" checked/>
+                            <label for="voluntariado">Voluntariado</label>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="text apoiador__formulario--campo">
+                        <label class="apoiador__formulario--campo--label" for="mensagem">Mensagem:</label>
+                        <textarea class="apoiador__formulario--campo--input--msg" name="mensagem" id="mensagem" cols="70" rows="5" placeholder="Deixe sua mensagem" required></textarea>
+                      </div>
+              
+                      <div class="apoiador__enviar">
+                        <button class="apoiador__enviar--botao--enviar" type="submit">
+                          Enviar
+                        </button>
+                      </div>
+                    </form>
+                  <!-- </div> -->
+                  <!-- <img src="assets/img/apoiador/mao-celular.png" alt="" /> -->
+                </div>
+              <!-- </div> -->
+
+              </div>
+            </div> 
+      </section>
+    </main>
+    <footer class="rodape">
+      <div class="container">
+        <div class="container__rodape">
+          <div class="rodape__icons">
+            <div class="rodape__logo">
+              <a class="rodape__logo--image" href="#inicio">
+                <img class="rodape__logo--image--img" src="./assets/img/rodape/logo_rodape.png" alt="Logomarca das protetoras de animais">
+              </a>  
+            </div> 
+              <div class="rodape__social">
+                <a class="rodape__social--icon" href="https://api.whatsapp.com/send?phone=+5598988076313&text=Oi! Gostaria de ajudar!" target="_blank"><i class="icon-whatsapp"></i></a>
+                <a class="rodape__social--icon" href="https://www.instagram.com/protetorasufma/" target="_blank"><i class="icon-instagram"></i></a>
+              </div>
+          </div>
+         
+          <div class="rodape__autoria">
+            <div class="rodape__autoria--logos">
+              <img class="rodape__autoria--logos--img1" src="assets/img/rodape/secti.png" alt="">
+              <img class="rodape__autoria--logos--img2" src="assets/img/rodape/trilhas.png" alt="">
+            </div>
+            <div class="rodape__autoria--texto">
+              <p>Site desenvolvido por alunos do Programa Trilhas Inova</p>
+              <p>Secretaria da Ciência Tecnologia e Inovação - SECTI</p>
+              <p>Governo do Estado do Maranhão</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--swiper-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--main.js-->
+    <script src="./main.js"></script>
+  </body>
+</html>

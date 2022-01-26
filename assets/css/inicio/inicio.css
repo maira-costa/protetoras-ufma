@@ -1,0 +1,26 @@
+#home {
+  overflow: hidden;
+}
+
+.inicio{
+  background: url('../../img/banner/banner.png') no-repeat center / cover;
+  height: 100vh;
+  /* margin-top: 4.5rem; */
+  width: 100%;
+}
+.container__inicio{
+  align-items:center;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+@media  screen and (min-width: 767px) {
+    .container__inicio{
+      align-items:flex-start;
+      justify-content: center;
+      gap: 2rem;
+    }
+} 

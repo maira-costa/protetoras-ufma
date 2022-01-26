@@ -1,0 +1,132 @@
+.container__apoiador{
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5.1875rem;
+  padding-bottom: 5rem;
+  
+  
+}
+
+
+
+
+.apoiador__texto{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2.9375rem;
+}
+
+.apoiador__texto--titulo{
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 0.8125rem;
+  padding-bottom: 1.5rem;
+}
+
+.apoiador__texto--conteudo p{
+  max-width: 20rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  
+  /* text-align: justify; */
+}
+
+.apoiador__card--pix{
+  align-items: center;
+  background:#FF9700;
+  border-radius: 0.25rem;
+  display: flex;
+  height: 3.125rem;
+  justify-content: center;
+  padding: 0.625rem 1.4375rem;
+  padding-bottom: 0.625rem;
+  margin-bottom: 2.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+}
+
+.apoiador__card--pix--image{
+ height: 1.79875rem;
+ width: 3.5rem;
+ margin-right: 0.625rem;
+ 
+}
+
+.apoiador__card--pix--email{
+  color:#E4E4E4;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  
+}
+
+.container__apoiador1{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.apoiador__image{
+  display: none;
+}
+
+@media screen and (min-width:992px){
+  
+
+  .container__apoiador{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0;
+    bottom: 0;
+    align-items: flex-end;
+   
+  }
+
+  .container__apoiador1{
+    margin-bottom: 15.8125rem;
+  }
+
+  .apoiador__texto{
+     max-width: 31.25rem;
+     
+     align-items:flex-start;
+     justify-content: center;
+  }
+
+  .apoiador__texto--titulo{
+    display: inline-flex;
+    text-align: left;
+  }
+
+  .apoiador__card--pix{
+    margin-left: 0;
+    margin-top: 2rem;
+    width: 22.5625rem;
+  }
+
+  .apoiador__card--pix--email{    
+    font-size: 1rem;
+    
+  }
+
+ .apoiador__image{
+    display: inline-flex;
+    height: 80%;
+    margin-right: 1.5rem;
+  }
+
+  .apoiador__image--celular{
+     height: 18.9375rem;
+      width: 17.5rem;
+      
+      
+      
+  }
+
+} 

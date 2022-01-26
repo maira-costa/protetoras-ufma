@@ -1,0 +1,27 @@
+.inicio__titulo{
+  display: inline-flex;
+  color: #F9F9F9;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 5.8rem;
+  width: calc(100vw - 3.0rem);
+}
+
+@media  screen and (min-width: 767px) {
+  .inicio__titulo{
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+@media  screen and (min-width: 992px) {
+  .inicio__titulo{
+    
+    max-height: 5.5rem;
+    max-width: 44.1875rem;
+    text-align: left;
+   
+  }
+
+
+}

@@ -1,0 +1,26 @@
+.menu__link{
+  color: #0F241D;
+  transition: color 0.2s;
+  position: relative;
+  display: inline-block;
+}
+
+.menu__link:hover{
+  color: #FF9700;
+}
+
+.menu__link::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #FF9700;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: width 0.2s;
+}
+
+.menu__link:hover::after{
+  width: 100%;
+}
+
