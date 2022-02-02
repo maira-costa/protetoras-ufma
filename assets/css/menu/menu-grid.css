@@ -13,17 +13,6 @@
 }
 
 
-@media screen and (min-width:992px){
-  .menu__grid{
-    display: flex;
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-    gap: 2rem;
-  }
-
-}
-
 @media screen and (min-width:767px){
   .menu__grid{
     display: flex;

@@ -2,53 +2,47 @@
   background: #FFFFFF;
   width: 100%;
   padding-bottom: 5rem;
-
 }
 
 .container__depoimentos{
   flex-direction: column;
-  padding-top: 5rem;
-  padding-left: 7.625rem;
+  /* padding-top: 5rem; */
+  /* padding-left: 7.625rem; */
   align-items: center;
   justify-content: center;
 }
-
 
 .depoimento__titulo{
   font-size: 2.125rem;
   margin-bottom: 4rem;
   padding-top: 5rem;
-  text-align: center; 
-  
-
+  text-align: center;  
 }
 
 .depoimentos__list{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 7.625rem; 
-  padding-bottom: 2rem;
+  /* padding-bottom: 7.625rem; 
+  padding-bottom: 2rem; */
+  /* gap: 2rem; */
 }
 
- .depoimento{
-   display: flex;
+.depoimento{
+  display: flex;
   flex-direction: column; 
+  gap: 1.5rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.25rem;
   
   align-items: center; 
-  justify-content: flex-start;
-  width: 20.4375rem;
+  /* justify-content: flex-start; */
+  /* width: 20.4375rem; */
   
-  /* height: -moz-max-content;  */
   height: auto;
   margin-bottom: 3rem;
-  margin-top: 1.5rem; 
-
-  
-  
- } 
+  /* margin-top: 1.5rem;  */
+} 
 
 .depoimento__image{
   /* align-items: center;
@@ -76,7 +70,7 @@
 .depoimento__conteudo--texto{
   font-family: Raleway, sans-serif;
   color:#0F241D;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 1.5rem;
   position: relative;
   text-indent: 1.875rem;
@@ -97,6 +91,11 @@
   font-style: normal;
 }
 
+.depoimento__link {
+  color: #FF9700;
+  font-weight: 700;
+}
+
 /* swiper */
 
 .depoimentos__list  .swiper-slide{
@@ -108,8 +107,8 @@
 .depoimentos__list  .swiper-pagination-bullet{
   width: 0.75rem;
   height: 0.75rem;
- 
 }
+
 .depoimentos__list .swiper-pagination-bullet-active{
   background:#FF9700;
 }
@@ -120,35 +119,37 @@
     margin-bottom: 3.625rem;
   }
 
-  .depoimentos__list{
+  /* .depoimentos__list{
     align-items: center;
     justify-content: center;
-  }
+  } */
+  
   .depoimento{
-    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 1.5rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1.5rem 1.5rem; */
+    padding: 3rem 4rem;
    
   }
   .depoimento__image {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 
-    width: 16.125rem;
-    height: 20.5rem;
-    margin-top: 4rem;
+    width: 16rem;
+    height: auto;
+    /* margin-top: 4rem; */
     /* object-fit: cover; */
-
+    margin: 0;
   }
 
-  .depoimento__conteudo{
+  /* .depoimento__conteudo{
     margin-top: 1rem;
-  }
+  } */
+
   .depoimento__conteudo--texto{
     max-width: 500px;
 
     /* margin: 35px 0; */
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
   }
 }
