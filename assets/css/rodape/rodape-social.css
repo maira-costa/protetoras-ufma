@@ -2,11 +2,9 @@
   width: 30%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
 }
 
 .rodape__social--icone{
-  height: 2.25rem;
   width: 1.25rem;
   color: #767676;
 }

@@ -1,17 +1,9 @@
 .container__apoiador{
-  
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5.1875rem;
-  padding-bottom: 5rem;
-  
-  
+  padding: 5rem 0 3rem;
 }
-
-
-
 
 .apoiador__texto{
   display: flex;
@@ -28,12 +20,10 @@
 }
 
 .apoiador__texto--conteudo p{
-  max-width: 20rem;
+  width: 100%;
   margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.5rem;
-  
-  /* text-align: justify; */
 }
 
 .apoiador__card--pix{
@@ -55,7 +45,6 @@
  height: 1.79875rem;
  width: 3.5rem;
  margin-right: 0.625rem;
- 
 }
 
 .apoiador__card--pix--email{
@@ -63,44 +52,31 @@
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 0.8rem;
-  
 }
-
-.container__apoiador1{
-  display: flex;
-  flex-direction: column;
-}
-
 
 .apoiador__image{
   display: none;
 }
 
 @media screen and (min-width:992px){
-  
 
   .container__apoiador{
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 0;
     bottom: 0;
-    align-items: flex-end;
-   
-  }
-
-  .container__apoiador1{
-    margin-bottom: 15.8125rem;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 7rem;
+    gap: 4rem;
   }
 
   .apoiador__texto{
-     max-width: 31.25rem;
-     
-     align-items:flex-start;
-     justify-content: center;
+    align-items:flex-start;
+    justify-content: center;
+    width: 100%;
   }
 
   .apoiador__texto--titulo{
-    display: inline-flex;
     text-align: left;
   }
 
@@ -112,21 +88,19 @@
 
   .apoiador__card--pix--email{    
     font-size: 1rem;
-    
   }
 
  .apoiador__image{
-    display: inline-flex;
-    height: 80%;
-    margin-right: 1.5rem;
+    display: block;
+    height: 80%; 
   }
 
   .apoiador__image--celular{
-     height: 18.9375rem;
-      width: 17.5rem;
-      
-      
-      
+    height: 18.9375rem;
+    width: 17.5rem;   
+    position: absolute;
+    bottom: 0;
+    left: 10%;
   }
 
 } 

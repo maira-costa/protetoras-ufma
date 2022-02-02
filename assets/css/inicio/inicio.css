@@ -4,6 +4,7 @@
 
 .inicio{
   background: url('../../img/banner/banner.png') no-repeat center / cover;
+  background-position-x: 42%;
   height: 100vh;
   /* margin-top: 4.5rem; */
   width: 100%;
@@ -18,9 +19,11 @@
 }
 
 @media  screen and (min-width: 767px) {
-    .container__inicio{
-      align-items:flex-start;
-      justify-content: center;
-      gap: 2rem;
-    }
+
+  .container__inicio{
+    align-items:flex-start;
+    justify-content: center;
+    gap: 2rem;
+  }
+
 } 

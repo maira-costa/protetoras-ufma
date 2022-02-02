@@ -2,12 +2,11 @@
   display: flex;;
   flex-direction: column;
   background:#F9F9F9;
-  padding-top: 5rem;
-  padding-bottom: 10rem;  
+  padding: 5rem 0 3rem;  
 }
 
 @media screen and (min-width:992px){
   .acoes{
-    margin-top: 6.125rem;
+    padding-top: 7rem;
   }
 }  

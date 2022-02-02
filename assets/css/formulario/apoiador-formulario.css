@@ -4,21 +4,21 @@
   border-radius: 1.25rem;
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
+  padding: 3rem 2rem 2rem 2rem;
   width: 20.4375rem;
 
+}
+
+.apoiador__formulario--titulo{
+  margin-bottom: 1.125rem;
 }
 
 .apoiador__formulario--campos{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-}
-
-.apoiador__formulario--titulo{
-  margin-bottom: 1.125rem;
-  margin-top: 2.125rem;
+  /* justify-content: space-evenly; */
+  /* width: 100%; */
 }
 
 .apoiador__formulario--campo{
@@ -27,18 +27,27 @@
   font-family: Raleway, cursive;
   font-size: 1rem;
   margin-bottom: 1.125rem;
+  width: 100%;
+  
 }
 
 .apoiador__formulario--campo--input{
   height: 3rem;
-  width: 17.985rem;
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+}
 
+.apoiador__formulario--campo--input::placeholder {
+  font: 400 1rem Raleway, sans-serif;
+  color: #B8BCCA;
 }
 
 .apoiador__formulario--escolha{
   display: flex;
   flex-direction: column;
-
 }
 
 .apoiador__formulario--escolha--texto{
@@ -48,16 +57,24 @@
 
 .apoiador__formulario--escolha--checkbox{
   margin-bottom: 0.6rem;
-  
+  accent-color: #FF9700;
 }
 
 .apoiador__formulario--campo--input--msg{
   height: 8.69rem;
-  width: 17.985rem;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.apoiador__formulario--campo--input--msg::placeholder{
+  font: 400 1rem Raleway, sans-serif;
+  color: #B8BCCA;
 }
 
 .apoiador__formulario--campo--label{
-    padding-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 
@@ -77,41 +94,23 @@
   align-items: center;
   padding: 0 2.875rem;
   border-radius: 0.25rem;
-  /* padding-top: 0.97rem; */
   cursor:pointer;
   transition: 0.2s;
+  border: none;
+  outline: none;
 }
 
 .apoiador__enviar--botao--enviar:hover{
-background: #dd8a0f;
-
+  background: #A7D0D3;
 }
 
 @media screen and (min-width:992px){
   .apoiador__formulario{
-    height: 46.4375rem;
     width: 25rem;
-    margin-bottom: 2.625rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-bottom: 1.9375rem;
-  }
-
-  
-
-  .apoiador__formulario--campos{
-    padding-bottom: 1.9375rem;
   }
 
   .apoiador__formulario--campo--input{
     width: 22rem;
-  
-  }
-
-  .apoiador__enviar--botao--enviar{
-    /* margin-right: 1.6875rem; */
-    margin-bottom: 2.1875rem;
-
   }
 
 }
