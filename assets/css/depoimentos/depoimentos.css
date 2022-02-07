@@ -30,6 +30,7 @@
   border-radius: 0.25rem;
   align-items: center;
   height: auto;
+  padding: 1rem 0;
   margin-bottom: 3rem;
 } 
 
@@ -100,7 +101,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3rem 4rem;
+    padding: 3rem 4rem;
   }
   
   .depoimento__titulo{
