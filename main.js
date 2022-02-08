@@ -6,7 +6,6 @@ for(const element of menu__icon){
   element.addEventListener('click', function() {
     nav.classList.toggle('menu__show');
   }, {passive: true})
-
 }
 
 /* quando clicar em um item do menu, esconder o menu */
@@ -17,37 +16,20 @@ for(const link of links){
   }, {passive: true})
 }
 
-/* mudar o header da página quando der scroll*/
-
-const header = document.querySelector('.header');
-const navHeight = header.offsetHeight;
-
-window.addEventListener('scroll', function(){
-  if(window.scrollY >= navHeight){
-   header.classList.add('scroll');
-  }else{
-    header.classList.remove('scroll');
-  }
-}, {passive: true});
-
 /* Depoimentos slider carrossel  swiper */
 
 let swiper = new Swiper('.swiper1', {
-  
   slidesPerView: 1,
   pagination:{
     el:'.swiper-pagination'
   },
   mousewheel: true,
   keyboard: true
-
-  
 });
 
 /* Galeria slide swiper*/
 
 let swiper1 = new Swiper('.swiper2',{
-
   slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-button-next',
