@@ -3,7 +3,7 @@
 } */
 
 .inicio{
-  background: url('../../img/banner/banner.png') no-repeat center / cover;
+  background: url('../../img/banner/banner.webp') no-repeat center / cover;
   background-position-x: 42%;
   height: 100vh;
   margin-top: 3.5rem;
@@ -19,7 +19,7 @@
   
 }
 
-@media  screen and (min-width: 767px) {
+@media  screen and (min-width: 992px) {
 
   .container__inicio{
     align-items:flex-start;

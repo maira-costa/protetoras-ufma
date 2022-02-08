@@ -14,14 +14,12 @@
   line-height: 1.25rem;
 }
 
-@media  screen and (min-width: 767px) {
+@media  screen and (min-width: 768px) {
   .inicio__titulo{
     font-size: 2rem;
-    text-align: left;
   }
 
   .text--inicio {
-    text-align: left;
     font-size: 1rem;
   }
 }
@@ -34,6 +32,7 @@
 
   .text--inicio {
     max-width:23rem;
+    text-align: left;
   }
 
 

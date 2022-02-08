@@ -4,10 +4,6 @@
   overflow: hidden;
 }
 
-.container__sobre{
-  margin: 0;
-}
-
 .sobre__imagem{
   width: 90%;
   height: auto;
@@ -35,11 +31,6 @@
   border-radius: 0.25rem;
 }
 
-.sobre__texto {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .sobre__texto--titulo{
   text-align: center;
   font-family: Montserrat, sans-serif;
@@ -60,6 +51,12 @@
   padding-top: 1.5rem;
 }
 
+@media screen and (min-width:768px){
+  .sobre__imagem{
+    width: 60%;
+    margin: 0 auto 2rem;
+  }
+}
 
 @media screen and (min-width:992px){
   .sobre {

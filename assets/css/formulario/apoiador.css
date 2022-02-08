@@ -38,10 +38,15 @@
   margin-right: auto;
   text-align: center;
   width: 12rem;
-  color:#E4E4E4;
+  color:#424242;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1rem;
+  transition: all 350ms ease-in-out;
+}
+
+.apoiador__instagram:hover{
+  background: #A7D0D3;
 }
 
 .icon-instagram {

@@ -1,7 +1,8 @@
 .rodape__autoria{
   display: flex;
   flex-direction: column ;
-  
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .rodape__autoria--logos{
@@ -24,11 +25,14 @@
 .rodape__autoria--texto{
   color:#0F241D;
   font: 400 1rem 'Raleway', sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.8125rem;
   text-align: center;
 }
 
-@media screen and (min-width:767px){
+@media screen and (min-width:768px){
+  .rodape__autoria {
+    margin-top: 0;
+  }
   .rodape__autoria--logos--img1{
     height: 5rem;
     width: 14.06rem;

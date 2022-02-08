@@ -86,7 +86,7 @@
 
 .apoiador__enviar--botao--enviar{
   background: #FF9700;
-  color:#F9F9F9;
+  color:#424242;
   display: inline-flex;
   font-family: Raleway, sans-serif;
   font-size: 1.3125rem;
@@ -98,13 +98,14 @@
   transition: 0.2s;
   border: none;
   outline: none;
+  transition: all 350ms ease-in-out;
 }
 
 .apoiador__enviar--botao--enviar:hover{
   background: #A7D0D3;
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:768px){
   .apoiador__formulario{
     width: 25rem;
   }

@@ -1,12 +1,16 @@
 .inicio__botao{
   background: #FF9700;
-  color:#F9F9F9;
+  color:#424242;
   display: inline-flex;
   font-family: Raleway, sans-serif;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
   align-items: center;
   padding: 1em 1.5em;
   border-radius: 0.25rem;
+  transition: all 350ms ease-in-out;
 }
 
+.inicio__botao:hover{
+  background: #A7D0D3;
+}

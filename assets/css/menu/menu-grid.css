@@ -1,19 +1,11 @@
  .menu__grid{
- 
-  /* display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem; */
-  
   opacity: 0;
   text-align: center;
   visibility: hidden;
-
-  
- 
 }
 
 
-@media screen and (min-width:767px){
+@media screen and (min-width:992px){
   .menu__grid{
     display: flex;
     opacity: 1;
