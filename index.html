@@ -37,11 +37,9 @@
     <link rel="stylesheet" href="assets/css/menu/menu-titulo.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
     <link rel="stylesheet" href="assets/css/menu/menu-close.css">
-    <link rel="stylesheet" href="assets/css/menu/menu-open.css">
     <link rel="stylesheet" href="assets/css/menu/menu__icon.css">
 
     <link rel="stylesheet" href="assets/css/inicio/inicio.css">
-    <link rel="stylesheet" href="assets/css/inicio/inicio-banner.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-texto.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-botao.css">
 
@@ -93,12 +91,11 @@
   <body >
     <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteudo principal</a> 
     <header class="header "> 
-      <div class="container">
-        <div class="container__header">
-          <div class="header__logo">
+      <div class="container container--header">
+          <a class="header__logo" href="#inicio">
             <img class="logo__image" src="./assets/img/logo.svg" alt=" Logo da Protetora">
-            <a class="logo__nome">Protetoras de Animais UFMA</a>
-          </div>
+            <p class="logo__nome">Protetoras de Animais UFMA</p>
+          </a>
           <nav class="menu ">
             
             <!-- menu visível-->
@@ -114,13 +111,12 @@
               <div class= "menu__icon icon-menu"></div>
               <div class="menu__icon icon-close"></div>
           </nav>
-        </div>
       </div>
    
     </header>
     <main>
       <!--INICIO-->
-      <section class="inicio " id="inicio" id="home">
+      <section class="inicio " id="inicio">
         <div class="container container__inicio">
           <div class="inicio__texto">
             <h1 class="titulo inicio__titulo" href="#conteudoPrincipal">Uma ação que parece simples pra você é a esperança de muitos.</h1>
@@ -182,7 +178,7 @@
                   </p>
               </div>
             </div>
-            <div class="acoes__cards--card" data-anime="right">
+            <div class="acoes__cards--card" data-anime="left">
               <img class="acoes__cards--card--image" src="assets/img/acoes/resgate.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Resgate</h3>
@@ -209,7 +205,7 @@
                 </p>
               </div>        
             </div>
-            <div class="acoes__cards--card" data-anime="left">
+            <div class="acoes__cards--card" data-anime="right">
               <img class="acoes__cards--card--image" src="assets/img/acoes/assistencia.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Assistência Veterinária</h3>
