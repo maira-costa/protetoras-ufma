@@ -5,7 +5,7 @@ const menu__icon = document.querySelectorAll('.menu__icon');
 for(const element of menu__icon){
   element.addEventListener('click', function() {
     nav.classList.toggle('menu__show');
-  })
+  }, {passive: true})
 
 }
 
@@ -14,7 +14,7 @@ const links = document.querySelectorAll('.menu__link');
 for(const link of links){
   link.addEventListener('click', function() {
     nav.classList.remove('menu__show');
-  })
+  }, {passive: true})
 }
 
 /* mudar o header da página quando der scroll*/
@@ -28,7 +28,7 @@ window.addEventListener('scroll', function(){
   }else{
     header.classList.remove('scroll');
   }
-});
+}, {passive: true});
 
 /* Depoimentos slider carrossel  swiper */
 
