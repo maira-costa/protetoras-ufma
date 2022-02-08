@@ -6,16 +6,17 @@
   background: url('../../img/banner/banner.png') no-repeat center / cover;
   background-position-x: 42%;
   height: 100vh;
-  /* margin-top: 4.5rem; */
   width: 100%;
 }
+
 .container__inicio{
   align-items:center;
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   flex-direction: column;
   height: 100%;
-  
+  padding-top: 7.5rem;
+  padding-bottom: 3rem;
 }
 
 @media  screen and (min-width: 767px) {
@@ -24,6 +25,7 @@
     align-items:flex-start;
     justify-content: center;
     gap: 2rem;
+    padding: 0;
   }
 
 } 

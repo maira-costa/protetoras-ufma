@@ -41,7 +41,7 @@
 
     <link rel="stylesheet" href="assets/css/inicio/inicio.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-banner.css">
-    <link rel="stylesheet" href="assets/css/inicio/inicio-titulo.css">
+    <link rel="stylesheet" href="assets/css/inicio/inicio-texto.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-botao.css">
 
     <link rel="stylesheet" href="assets/css/sobreNos/sobreNos.css">
@@ -91,7 +91,7 @@
   </head>
   <body >
     <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteudo principal</a> 
-    <header class="header "> <!--Não esqueçam de deixar o header fixo com a rolagem da página (APAGAR ESSE COMENTÁRIO)-->
+    <header class="header "> 
       <div class="container">
         <div class="container__header">
           <div class="header__logo">
@@ -101,7 +101,7 @@
           <nav class="menu ">
             
             <!-- menu visível-->
-              <ul class="menu__grid"> <!--Vejam se a class grid é realmente necessária no nosso projeto (APAGAR ESSE COMENTÁRIO) -->
+              <ul class="menu__grid"> 
                 <li class="menu__titulo" ><a  class="menu__link" href="#inicio">Início</a></li>
                 <li class="menu__titulo"><a class="menu__link" href="#sobre">Sobre</a></li>
                 <li class="menu__titulo"><a class="menu__link"   href="#acoes">Ações</a></li>
@@ -121,7 +121,10 @@
       <!--INICIO-->
       <section class="inicio " id="inicio" id="home">
         <div class="container container__inicio">
-          <h1 class="titulo inicio__titulo" href="#conteudoPrincipal">Uma ação que parece simples pra você é a esperança de muitos.</h1>
+          <div class="inicio__texto">
+            <h1 class="titulo inicio__titulo" href="#conteudoPrincipal">Uma ação que parece simples pra você é a esperança de muitos.</h1>
+            <p class="text text--inicio">Ajudamos animais em situação de rua a terem uma nova vida. Precisamos da sua ajuda!</p>
+          </div>
           <a class="inicio__botao" href="#apoiador">Seja um apoiador</a>
         </div> 
       </section>
@@ -410,17 +413,11 @@
                         Estamos sempre precisando de pessoas que se importam para adotar, ceder lar temporário e se unir à nossa causa.
                       </p>
                       <p>
-                        Não recebemos qualquer tipo verba pública ou privada para nossas ações. A nossa única fonte de recursos vem de doações e da promoção de rifas por meio de nossas redes sociais.
-                      </p>
-                      <p>
-                        Você também pode nos ajudar fazendo uma doação por meio do PIX com a chave abaixo:
+                        Não recebemos qualquer tipo verba pública ou privada para nossas ações. A nossa única fonte de recursos vem de doações e da promoção de rifas por meio de nosso instagram:
                       </p>
                     </div>
                   </div>
-                  <div class="apoiador__card--pix" >
-                      <img class="apoiador__card--pix--image" src="assets/img/apoiador/pix.png" alt="Símbolo do pix" />
-                      <p class="apoiador__card--pix--email">protetorasufma@gmail.com</p> 
-                  </div>
+                      <a class="apoiador__instagram" href="https://www.instagram.com/protetorasufma/" target="_blank"><i class="icon-instagram"></i>@protetorasufma</a>
                   </div>
                   <div class="apoiador__image">
                     <img class="apoiador__image--celular" src="assets/img/apoiador/mao-celular.png" alt="Ilustração de uma mão com um celular">
@@ -435,7 +432,7 @@
 
                       <input type="hidden" name="_template" value="box">
 
-                      <input type="hidden" name="_next" value="https://rocketedu.vercel.app/agradecimento.html">
+                      <input type="hidden" name="_next" value="https://protetoras-ufma.vercel.app/agradecimento.html">
 
                       <div class="text apoiador__formulario--campo">
                         <label class="apoiador__formulario--campo--label" for="nome">Nome:</label>
@@ -494,10 +491,6 @@
                 <img class="rodape__logo--image--img" src="./assets/img/rodape/logo_rodape.png" alt="Logomarca das protetoras de animais">
               </a>  
             </div> 
-              <div class="rodape__social">
-                <a class="rodape__social--icon" href="https://api.whatsapp.com/send?phone=+5598988076313&text=Oi! Gostaria de ajudar!" target="_blank"><i class="icon-whatsapp"></i></a>
-                <a class="rodape__social--icon" href="https://www.instagram.com/protetorasufma/" target="_blank"><i class="icon-instagram"></i></a>
-              </div>
           </div>
          
           <div class="rodape__autoria">

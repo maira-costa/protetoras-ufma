@@ -4,7 +4,14 @@
   font-size: 1.5rem;
   text-align: center;
   width: calc(100vw - 3.0rem);
-  margin-top: 3rem;
+}
+
+.text--inicio {
+  color: #F9F9F9;
+  font-size: .85rem;
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.25rem;
 }
 
 @media  screen and (min-width: 767px) {
@@ -12,15 +19,21 @@
     font-size: 2rem;
     text-align: left;
   }
+
+  .text--inicio {
+    text-align: left;
+    font-size: 1rem;
+  }
 }
 
 @media  screen and (min-width: 992px) {
   .inicio__titulo{
-    
-    max-height: 5.5rem;
     max-width: 44.1875rem;
     text-align: left;
-   
+  }
+
+  .text--inicio {
+    max-width:23rem;
   }
 
 
