@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/pularNavegacao.css">
     <link rel="stylesheet" href="assets/css/titulo.css">
     <link rel="stylesheet" href="assets/css/text.css">
+    <link rel="stylesheet" href="assets/css/animacao.css">
 
     <link rel="stylesheet" href="assets/css/header/header.css">
     <link rel="stylesheet" href="assets/css/header/header-logo.css">
@@ -132,15 +133,15 @@
       <!--SOBRE-->
       <section class=" sobre" id="sobre" >
         <div class="container container__sobre">
-          <div class="sobre__imagem">
+          <div class="sobre__imagem" data-anime="left">
             <picture> 
               <source media="(max-width: 768px)" srcset="./assets/img/sobre/sobrenos_mobile.JPG" type="image/jpeg">
               <img class="sobre__imagem--img"  src="assets/img/sobre/sobrenos.JPG" alt="Mulher sorrindo abraça e brinca com cachorro. Ao fundo vê-se placa que diz: Não compre! Adote!">
             </picture>
           </div>
           <div class="sobre__texto">
-            <h2 class="titulo sobre__texto--titulo">Sobre nós</h2>
-            <div class="sobre__texto--conteudo">
+            <h2 class="titulo sobre__texto--titulo" data-anime="right">Sobre nós</h2>
+            <div class="sobre__texto--conteudo" data-anime="right">
               <p class="text sobre__texto--conteudo--paragrafo">
                 Somos um Grupo Voluntário e Independente de Proteção Animal que atua na UFMA (Campus do Bacanga) São Luís-MA, desde 2018. Nosso projeto é formado por discentes da instituição.
               </p>
@@ -166,13 +167,13 @@
       <section class=" acoes" id="acoes">
         <div class="container container__acoes">        
           <div class="acoes__cabecalho">
-            <h2 class="acoes__cabecalho--titulo">Ações</h2>
-            <p class="text acoes__cabecalho--texto">
+            <h2 class="acoes__cabecalho--titulo" data-anime="left">Ações</h2>
+            <p class="text acoes__cabecalho--texto" data-anime="left">
               As ações que realizamos diariamente consistem em resgate, alimentação, vacinação, castração, assistência veterinária e encaminhamento para adoções dos animais que vivem situação de abandono. Já conseguimos a adoção de dezenas de animais ao longo destes anos.
             </p>
           </div>
           <div class="acoes__cards grid" >
-            <div class="acoes__cards--card">
+            <div class="acoes__cards--card" data-anime="right">
               <img class="acoes__cards--card--image" src="assets/img/acoes/alimentacao.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Alimentação</h3>
@@ -181,7 +182,7 @@
                   </p>
               </div>
             </div>
-            <div class="acoes__cards--card">
+            <div class="acoes__cards--card" data-anime="right">
               <img class="acoes__cards--card--image" src="assets/img/acoes/resgate.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Resgate</h3>
@@ -190,7 +191,7 @@
                 </p>
               </div>        
             </div>
-            <div class="acoes__cards--card">
+            <div class="acoes__cards--card" data-anime="right">
               <img class="acoes__cards--card--image" src="assets/img/acoes/vacinacao.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Vacinação</h3>
@@ -199,7 +200,7 @@
                 </p>
               </div>        
             </div>
-            <div class="acoes__cards--card">
+            <div class="acoes__cards--card" data-anime="left">
               <img class="acoes__cards--card--image" src="assets/img/acoes/castracao.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Castração</h3>
@@ -208,7 +209,7 @@
                 </p>
               </div>        
             </div>
-            <div class="acoes__cards--card">
+            <div class="acoes__cards--card" data-anime="left">
               <img class="acoes__cards--card--image" src="assets/img/acoes/assistencia.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Assistência Veterinária</h3>
@@ -217,7 +218,7 @@
                 </p>
               </div>        
             </div>
-            <div class="acoes__cards--card">
+            <div class="acoes__cards--card" data-anime="left">
               <img class="acoes__cards--card--image" src="assets/img/acoes/adocao.png" alt="">
               <div class="acoes__cards--card--conteudo">
                 <h3 class="titulo acoes__cards--card--conteudo--titulo">Adoção Responsável</h3>
@@ -407,7 +408,7 @@
               <div class="container__apoiador">
                 <div class="container__apoiador1">
                   <div class="apoiador__texto">
-                    <h2 class="titulo apoiador__texto--titulo">Você pode nos ajudar de várias formas!</h2>
+                    <h2 class="titulo apoiador__texto--titulo" >Você pode nos ajudar de várias formas!</h2>
                     <div class="text apoiador__texto--conteudo">
                       <p>
                         Estamos sempre precisando de pessoas que se importam para adotar, ceder lar temporário e se unir à nossa causa.
@@ -512,5 +513,6 @@
 
     <!--main.js-->
     <script src="./main.js"></script>
+    <script src="animate.js"></script>
   </body>
 </html>
