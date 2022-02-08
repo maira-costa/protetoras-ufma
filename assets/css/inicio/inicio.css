@@ -5,7 +5,9 @@
 .inicio{
   background: url('../../img/banner/banner.png') no-repeat center / cover;
   background-position-x: 42%;
-  height: 100vh;
+  height: calc(100vh - 4.5rem);
+  margin-top: 3.5rem;
+  padding-top: 3.5rem;
   width: 100%;
 }
 
@@ -15,7 +17,6 @@
   justify-content:space-between;
   flex-direction: column;
   height: 100%;
-  padding-top: 7.5rem;
   padding-bottom: 3rem;
 }
 
