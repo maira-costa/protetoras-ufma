@@ -16,3 +16,5 @@ Desenvolver uma landing page para um projeto social maranhense com o intuito de 
 Para o desafio, foi desenvolvida a landing page das Protetora de Animais - UFMA, um grupo voluntário de estudantes da Universidade Federal do Maranhão, que faz resgates, intermediação de adoções, assistência veterinária e distribuição de alimentos para cachorros e gatos que vivem no campus de São Luís. 
 
 Acesse o site em: <a href="https://protetoras-ufma.vercel.app/">https://protetoras-ufma.vercel.app/</a>
+
+Design inspirado no projeto do NLW Origins Six da Rocketseat.
